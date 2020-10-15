@@ -8,39 +8,41 @@ header{
     padding-bottom: 5vh;
     margin: auto;
     width: 90%;
-    display: flex;
-    justify-content: space-between;
-    background-color: rgba(10, 17, 112);                transition-duration: 0.5s;
+    /* display: flex; */
+    justify-content: space-between;              
+    transition-duration: 0.5s;
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
     header>div{
         margin: 0vh 0.4vw;
     }
-    #separation{
-        animation: 1s ease-out 0s 1 slideInFromTop;
-        margin-left: 2vw;
-        border: 3px solid rgb(57, 210, 251);
-    }
     #main_name{
-        animation: 1s ease-out 0s 1 slideInFromLeft;
+        animation: 2s ease-out 0s 1 slideInFromLeft;
         font-size: 3vw;
-        max-width: 40%;
         color: rgb(57, 210, 251);
+        margin: auto;
+        margin-bottom: 5vh;
     }
     #main_name>p{
-        margin: 0;  
+        text-align: center;
+        margin: auto;  
     }
     #main_menu{
         margin: auto;
-        max-width: 80%;
+        animation: 2s ease-out 0s 1 slideInFromRight;
     }
         #main_menu>ul{
             display: flex;
+            justify-content: center;
             list-style-type: none;
-            border-top: 1px solid rgb(57, 210, 251);;
-            border-bottom: 1px solid rgb(57, 210, 251);;
+            border-top: 1px solid rgb(1, 11, 56);
+            border-bottom: 1px solid rgb(1, 11, 56);
             padding: 1vh 0;
             max-width: 100%;
             font-size: 1vw;
@@ -49,16 +51,13 @@ header{
                 margin: 0 2vw;
             }
             #main_menu>ul>li>a{
-                text-decoration: none;
-                color: rgb(57, 210, 251);
                 transition-duration: 0.5s;
             }
             #main_menu>ul>li>a:hover{
-                color: white;
+                color: grey;
                 transition-duration:0.5s;
             }
 #index_main_content{
-    background: linear-gradient(rgba(10, 17, 112),rgba(22, 35, 207));
     width: 90%;
     margin: auto;
     min-height: 200vh;
@@ -73,11 +72,11 @@ header{
         transform: translateX(0);
     }
 }
-@keyframes slideInFromTop {
+@keyframes slideInFromRight {
     0% {
-        transform: translateY(-100%);
+        transform: translateX(200%);
     }
     100% {
-        transform: translateY(0);
+        transform: translateX(0);
     }
 }
