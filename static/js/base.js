@@ -17,7 +17,20 @@ function vhToPx(value){
 };
 
 //---------setting min-height------------
-window.onload = function(){
-    $("#separation").addClass("posed_separation", 2000, "ease", true);
-};
 
+$(document).ready(function(){
+    $(window).on('scroll', function () {   
+    var elmt   = $('.from-left, .from-right');
+    var topImg = $('.from-left, .from-right').offset().top;
+    var scroll = $(window).scrollTop();   
+    var topImg = $(".firstLeft", ".firstRight").offset().top - 300; 
+    $("#main_name") 
+        $(elmt).each(function() {
+            var topImg = $(this).offset().top - 300;           
+            if ( topImg < scroll ) {                
+            $(this).css("transform", "translate(0,0)");
+            $(this).css("opacity", "1");               
+            };
+        });
+    });
+});
