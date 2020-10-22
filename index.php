@@ -12,7 +12,9 @@
         <?php include 'header.html'; ?>
 
         <div id="index_main_content">
-            tralala pouet pouet tsoin tsoin
+            I am a senior researcher at the University of Geneva, in the department of Basic Neurosciences.
+            My research focus on the dynamical organization of brain activity in neurological disorders and behavior,
+            using intracranial recordings in human and neurocomputational approaches.
         </div>
 
         <script src="./static/js/base.js"></script>
