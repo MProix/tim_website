@@ -12,7 +12,13 @@
         <?php include 'header.html'; ?>
 
         <div id="index_main_content">
-
+            
+           Timothée Proix
+           Département des Neurosciences fondamentales
+           Campus Biotech
+           9 chemin des Mines
+           1202 Genève 4
+            
         </div>
 
         <script src="./static/js/base.js"></script>
