@@ -18,6 +18,7 @@
            Campus Biotech
            9 chemin des Mines
            1202 Genève 4
+           prenom dot nom @ unige.ch
             
         </div>
 
