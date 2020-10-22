@@ -12,7 +12,10 @@
         <?php include 'header.html'; ?>
 
         <div id="index_main_content">
-
+            
+        Swiss National Science Foundation, Ambizione grant #193542
+        Université de Genève, Maître-assistant
+            
         </div>
 
         <script src="./static/js/base.js"></script>
