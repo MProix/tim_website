@@ -12,9 +12,10 @@
         <?php include 'header.html'; ?>
 
         <div id="index_main_content">
-            I am a senior researcher at the University of Geneva, in the department of Basic Neurosciences.
-            My research focus on the dynamical organization of brain activity in neurological disorders and behavior,
-            using intracranial recordings in human and neurocomputational approaches.
+            <p>I am a senior researcher at the University of Geneva, in the department of Basic Neurosciences.</p>
+
+            <p>My research focus on the dynamical organization of brain activity in neurological disorders and behavior,
+            using intracranial recordings in human and neurocomputational approaches.</p>
         </div>
 
         <script src="./static/js/base.js"></script>

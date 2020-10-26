@@ -12,9 +12,12 @@
         <?php include 'header.html'; ?>
 
         <div id="index_main_content">
-            
-        Swiss National Science Foundation, Ambizione grant #193542
-        Université de Genève, Maître-assistant
+            <ul>
+                <li>Swiss National Science Foundation, Ambizione grant #193542 </li>
+                <li>Université de Genève, Maître-assistant</li>
+            </ul>
+        <br/>
+        
             
         </div>
 

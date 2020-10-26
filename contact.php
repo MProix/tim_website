@@ -13,11 +13,11 @@
 
         <div id="index_main_content">
             
-           Timothée Proix
-           Département des Neurosciences fondamentales
-           Campus Biotech
-           9 chemin des Mines
-           1202 Genève 4
+           Timothée Proix<br>
+           Département des Neurosciences fondamentales<br>
+           Campus Biotech<br>
+           9 chemin des Mines<br>
+           1202 Genève 4<br>
            prenom dot nom @ unige.ch
             
         </div>
