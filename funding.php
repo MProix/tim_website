@@ -20,11 +20,8 @@
                 <!-- <li class="logo"><a href="#"><img src="./static/img/unige-logo.svg" alt="unige logo" style="background-color:rgb(241, 105, 87);padding:1vh 1vw;"></a></li> -->
                 <li class="logo"><a href="#"><img src="./static/img/unige-logo.svg" alt="unige logo" style="padding:1vh 1vw;"></a></li>
             </ul>
-        <br/>
-        
-            
+        <br/>           
         </div>
-
-        <script src="./static/js/base.js"></script>
+        <?php include 'footer.html'; ?>
     </body>
 </html>

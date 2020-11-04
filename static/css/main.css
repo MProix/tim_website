@@ -63,7 +63,6 @@
     #index_main_content{
         width: 60%;
         margin: auto;
-        min-height: 200vh;
     }
     #index_main_content>ul{
         margin-top: 0px;
@@ -110,6 +109,35 @@
     #epilepsy{
         max-width: 70%;
         border-radius: 15px;
+    }
+    footer>p{
+        position: absolute;
+        bottom: 0.5vh;
+        right: 1vw;
+        margin: 0;
+        font-size: 75%;
+        text-decoration: underline blue;
+    }
+    footer>p>a{
+        color: blue;
+    }
+    #infos_box{
+        display: none;
+        border: 3px solid grey;
+        position: absolute;
+        width: 30%;
+        height: 30%;
+        top: 35%;
+        left: 35%;
+        text-align: center;
+        background-color: white;
+    }
+    #infos_box>p{
+        margin: auto;
+    }
+    #infos_box>p>a{
+        color: blue;
+        text-decoration: underline blue;
     }
 }
 
@@ -189,7 +217,6 @@
     #index_main_content{
         width: 90%;
         margin: auto;
-        min-height: 200vh;
         text-align: center;
     }
     #index_main_content>ul{
@@ -239,4 +266,42 @@
         max-width: 70%;
         border-radius: 15px;
     }
+    footer>p{
+        position: absolute;
+        bottom: 0.5vh;
+        right: 1vw;
+        margin: 0;
+        font-size: 75%;
+        text-decoration: underline blue;
+    }
+    footer>p>a{
+        color: blue;
+    }
+    #infos_box{
+        display: none;
+        border: 3px solid grey;
+        position: absolute;
+        width: 30%;
+        height: 30%;
+        top: 35%;
+        left: 35%;
+        text-align: center;
+        background-color: white;
+    }
+    #infos_box>p{
+        margin: auto;
+    }
+    #infos_box>p>a{
+        color: blue;
+        text-decoration: underline blue;
+    }
+}
+
+.opacity{
+filter:alpha(opacity=35);
+opacity:0.35;
+-moz-opacity:0.35;
+} 
+.flex{
+    display: flex !important;
 }

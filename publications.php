@@ -41,7 +41,6 @@
                 <li>Bernard T, Naze S, Proix T, Jirsa V (2014). <a href="https://doi.org/10.1016/B978-0-12-418693-4.00006-6">Modern concepts of seizure modeling.</a> International review of neurobiology, 114:121-53.</li>
             </ul>
         </div>
-
-        <script src="./static/js/base.js"></script>
+        <?php include 'footer.html'; ?>
     </body>
 </html>

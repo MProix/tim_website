@@ -52,3 +52,17 @@ $( window ).resize(function() {
         $("#main_menu").hide();
     }
 });
+
+$("#infos").click(function(event){
+    $("#infos_box").addClass("flex");
+    event.stopPropagation();
+    $("header, #index_main_content").addClass("opacity");
+    $("body").css("background-color","lightgrey");
+});
+$(window).click(function() {
+    if($('#infos_box:visible').length != 0){
+        $("#infos_box").removeClass("flex");
+        $("header, #index_main_content").removeClass("opacity");
+        $("body").css("background-color","white");
+    };
+});

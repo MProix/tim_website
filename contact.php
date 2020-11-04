@@ -16,7 +16,6 @@
             <p>Timothée Proix<br>Département des Neurosciences fondamentales<br>Campus Biotech<br>9 chemin des Mines<br>1202 Genève 4<br>prenom dot nom @ unige.ch</p>
             
         </div>
-
-        <script src="./static/js/base.js"></script>
+        <?php include 'footer.html'; ?>
     </body>
 </html>
